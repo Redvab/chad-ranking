@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Top 10 Chads von Österreich</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f0f0f,#1a1a1a,#000);
+    color:white;
+}
+
+/* Заголовок */
+header{
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    color:gold;
+    font-size:45px;
+    text-shadow:0 0 15px gold;
+}
+
+/* Контейнер карточек */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:20px;
+}
+
+/* Карточки */
+.card{
+    background:#1c1c1c;
+    width:260px;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.8);
+    transition:0.3s;
+    text-align:center;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px gold;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Кнопка */
+button{
+    margin-top:10px;
+    padding:8px 15px;
+    border:none;
+    border-radius:8px;
+    background:gold;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ffd700;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Top 3 Moggers</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🥇 Top 1</h2>
+<img src="Arnold.jpg">
+<p>Name: ArnoldKing</p>
+<p>Rating: True Adam</p>
+<button>Vote 👍</button>
+</div>
+
+<div class="card">
+<h2>🥈 Top 2</h2>
+<img src="Androgenic.jpg">
+<p>Name: Androgenic</p>
+<p>Rating: Chad Lite</p>
+<button>Vote 👍</button>
+</div>
+
+<div class="card">
+<h2>🥉 Top 3</h2>
+<img src="ASU.jpg">
+<p>Name: ASU Frat Leader</p>
+<p>Rating: LTN</p>
+<button>Vote 👍</button>
+</div>
+
+</div>
+
+</body>
+</html>
